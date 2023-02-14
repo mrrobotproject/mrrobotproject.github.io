@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    height: 150px;
+    width: auto;
+    background-color: black;
+    	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+}
