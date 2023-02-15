@@ -9,8 +9,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
+	justify-content: space-between;
+	align-items: center;
 	align-content: center;
 }
 main {
@@ -26,6 +26,64 @@ main {
 }
 
 header img {
-	margin: 20px;
+	margin-left: 50px;
+	margin-top: 25px;
 }
 
+header p {
+	color: white;
+	font-family: 'Kanit', sans-serif;
+	font-size: 50px;
+	margin-top: 25px;
+}
+
+header i {
+	color: white;
+	font-size: 60px;
+	margin-right: 50px;
+	margin-top: 25px;
+}
+
+button {
+	color: #ffffff;
+	background: radial-gradient(circle, rgba(104,66,196,1) 0%, rgba(0,60,120,1) 100%);
+	
+	font-size: 19px;
+	border: none;
+	padding: 15px 50px;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+button:hover {
+	background-color: #4b00ff;
+    color: #fff;
+    box-shadow: 0 0 5px #4b00ff,
+                0 0 20px rgb(75 0 255 / 0.8),
+                0 0 35px rgb(75 0 255 / 0.7),
+                0 0 50px rgb(75 0 255 / 0.6);
+    border-color: #fff;
+}
+
+main img {
+	border-radius: 50px;
+	box-shadow: 0 0 5px #4b00ff,
+                0 0 20px rgb(75 0 255 / 0.8),
+                0 0 35px rgb(75 0 255 / 0.7),
+                0 0 50px rgb(75 0 255 / 0.6);
+}
+
+.moreInfo {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
+
+.moreInfo p {
+	font-family: 'Kanit', sans-serif;
+	color: white;
+	font-size: 150px;
+}
